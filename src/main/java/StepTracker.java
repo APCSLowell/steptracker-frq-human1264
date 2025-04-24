@@ -16,6 +16,7 @@ public class StepTracker
  }
  public int activeDays(){return(activeDays);}
  public double averageSteps(){
-  return(((double)step)/days);
+  private double a = (double)days;
+  return(step/a);
  }
 } 
